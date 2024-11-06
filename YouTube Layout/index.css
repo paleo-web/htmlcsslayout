@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* div {
+    margin: 5px;
+    background-color: yellowgreen;
+} */
+.head{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.footer{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.main {
+    display: flex;
+    margin: 10px;
+    height: 400px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100px; */
+}
+.bootan{
+    flex: 2;
+    margin: 0 10px;
+    /* background-color: #fff; */
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; */
+    /* background-image: url(); */ 
+}
+.main .sidebar {
+    flex: 2;
+    margin: 0 10px;
+    /* background-color: #fff; */
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; */
+    /* background-image: url(); */
+}
+
+.main .content {
+    flex: 3;
+    /* margin: 0 12px; */
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; */
+}

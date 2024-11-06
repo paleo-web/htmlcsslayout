@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb on and off</title>
+<style>
+body{
+    background-color: black;
+}
+
+img{
+    display: block;
+    width: 30%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+
+</style>
+</head>
+<body>
+      <img src="./images/bulb-off.jpeg" alt="" id="img">
+    
+      <button id="btn">Turn on</button>
+    
+
+      <script>
+
+        let img = document.getElementById("img")
+        let btn = document.getElementById("btn")
+ 
+        btn.addEventListener("click" ,toogle)
+
+        function toogle(e){
+            
+            if(btn.textContent.includes('on')){
+                img.src = "./images/bulb-on.jpeg"
+                btn.textContent = "Turn Off"
+                console.log(img);
+            }
+            else{
+                img.src = "./images/bulb-off.jpeg"
+                btn.textContent = "Turn on"
+                console.log(img);
+            }
+        }
+        
+      </script>
+</body>
+</html>

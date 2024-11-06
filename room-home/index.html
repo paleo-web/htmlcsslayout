@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="./src/output.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="./src/output.css">
+  </head>
+  <body>
+    <div class="main h-screen w-full relative">
+      <div class="absolute top-4 ml-3">
+        <ul class="flex gap-6 text-white">
+          <li class="font-semibold">room</li>
+          <li>home</li>
+          <li>shop</li>
+          <li>about</li>
+          <li>contant</li>
+        </ul>
+      </div>
+      <div class="header h-[65%] w-full">
+        <!-- <div class=""> -->
+        <!-- header content starts here -->
+        <!-- slide 1 start here  -->
+        <div class="slide h-full">
+          <!-- //left -->
+          
+            <div class="h-full w-[60%]">
+              <!-- <img
+                class="h-full w-full"
+                src="./src/images/desktop-image-hero-1.jpg" alt=""
+              /> -->
+              <img
+                class="h-full w-full"
+                src="./src/images/desktop-image-hero-1.jpg" alt=""
+              />
+            </div>
+            <!-- //right -->
+
+            <div class="h-full w-[40%] flex justify-center items-center bg-white relative" >
+              <div class="w-[80%]">
+                <h1 class="font-bold text-3xl">
+                  Discover innovative <br />
+                  ways to decorate
+                </h1>
+                <p class="opacity-40 mb-5">
+                  We provide unmatched quality, comfort, and style for property
+                  owners across the country. Our experts combine form and
+                  function in bringing your vision to life. Create a room in
+                  your own style with our collection and make your property a
+                  reflection of you and what you love.
+                </p>
+                <div class="flex gap-2">
+                  <a class="uppercase font-semibold" href="">shop now</a>
+                  <img class="" src="./src/images/icon-arrow.svg" alt="" />
+                </div>
+              </div>
+
+              <!-- Silde Buttons -->
+              <div
+                class="bg-black absolute bottom-0 left-0 flex w-28 h-12 justify-around items-center"
+              >
+                <span
+                  class="slide-left  cursor-pointer"
+                  onclick="slidecontrol(-1)"
+                >
+                  <img class="bg-white w-6 h-6" src="./src/images/icon-angle-left.svg" alt="" />
+                  <h1></h1>
+                </span>
+
+                <span
+                  class="slide-right cursor-pointer"
+                  onclick="slidecontrol(1)"
+                >
+                  <img src="./scr/images/icon-angle-right.svg" alt="" />
+                </span>
+              </div>
+            </div>
+          
+        </div>
+        <!-- slide 1 ends here  -->
+
+        <!-- slide 2 start here / header 2-->
+        <div class="slide  h-full">
+          <!-- //left -->
+          <div class="h-full w-[60%]">
+            <img
+              class="h-full w-full"
+              src="./scr/images/desktop-image-hero-2.jpg"
+              alt=""
+            />
+          </div>
+          <!-- //right -->
+          <div
+            class="h-full w-[40%] flex justify-center items-center bg-white relative"
+          >
+            <div class="w-[80%]">
+              <h1 class="font-bold text-3xl">
+                We are available all <br />
+                across the globe
+              </h1>
+              <p class="opacity-40 mb-5">
+                With stores all over the world, it's easy for you to find
+                furniture for your home or place of business. Locally, we’re in
+                most major cities throughout the country. Find the branch
+                nearest you using our store locator. Any questions? Don't
+                hesitate to contact us today.
+              </p>
+              <div class="flex gap-2">
+                <a class="uppercase font-semibold" href="">shop now</a>
+                <img class="" src="./scr/images/icon-arrow.svg" alt="" />
+              </div>
+            </div>
+            <!-- Silde Buttons -->
+            <div
+              class="bg-black absolute bottom-0 left-0 flex w-28 h-12 justify-around items-center"
+            >
+              <span
+                class="slide-left cursor-pointer"
+                onclick="slidecontrol(-1)"
+              >
+                <img class="bg-white" src="./scr/images/icon-angle-left.svg" alt="" />
+              </span>
+
+              <span
+                class="slide-right cursor-pointer"
+                onclick="slidecontrol(1)"
+              >
+                <img class="" src="./src/images/desktop-image-hero-1.jpg" alt="" />
+              </span>
+            </div>
+          </div>
+        </div>
+        <!--slide 2 ends here  -->
+
+        <!-- slide 3 start here -->
+        <div class="slide h-full">
+          <!-- //left -->
+          <div class="h-full w-[60%]">
+            <img
+              class="h-full w-full"
+              src="./scr/images/desktop-image-hero-3.jpg"
+              alt=""
+            />
+          </div>
+          <!-- //right -->
+          <div
+            class="h-full w-[40%] flex justify-center items-center bg-white relative"
+          >
+            <div class="w-[80%]">
+              <h1 class="font-bold text-3xl mb-3">
+                Manufactured with <br />
+                the best materials
+              </h1>
+              <p class="opacity-40 mb-5">
+                Our modern furniture store provide a high level of quality. Our
+                company has invested in advanced technology to ensure that every
+                product is made as perfect and as consistent as possible. With
+                three decades of experience in this industry, we understand what
+                customers want for their home and office.
+              </p>
+              <div class="flex gap-2">
+                <a class="uppercase font-semibold" href="">shop now</a>
+                <img class="" src="./scr/images/icon-arrow.svg" alt="" />
+              </div>
+            </div>
+            <!-- Silde Buttons -->
+            <div
+              class="bg-black absolute bottom-0 left-0 flex w-28 h-12 justify-around items-center"
+            >
+              <span
+                class="slide-left cursor-pointer"
+                onclick="slidecontrol(-1)"
+              >
+                <img src="./scr/images/icon-angle-left.svg" alt="" />
+              </span>
+
+              <span
+                class="slide-right cursor-pointer"
+                onclick="slidecontrol(1)"
+              >
+                <img src="./scr/images/icon-angle-right.svg" alt="" />
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- slide 3 ends here -->
+        <!-- </div> -->
+      </div>
+      <!-- header  content ends here -->
+
+      <!-- 2nd footer secation start here -->
+      <div class="footer h-[35%] w-full">
+        <!-- start here -->
+        <div class="h-full w-full flex">
+          <!-- FLEX 1st image starts -->
+          <div class="h-full flex-1">
+            <div class="h-full flex-1 w-full bg-cover">
+              <img class="h-full" src="./src/images/image-about-dark.jpg" alt="" />
+            </div>
+          </div>
+          <!-- FLEX 1 image end here -->
+          <!-- <div class="flex-[2] h-full  border-gray-950 border-2"> -->
+
+          <!-- flex 2 START HERE  -->
+          <div class="h-full flex flex-[2] m-1">
+            <div class="h-full m-3">
+              <h1 class="font-bold text-2xl">About our furniture</h1>
+
+              <p class="opacity-45">
+                Our multifunctional collection blends design and function to
+                suit your individual taste. Make each room unique, or pick a
+                cohesive theme that best express your interests and what
+                inspires you. Find the furniture pieces you need, from
+                traditional to contemporary styles or anything in between.
+                Product specialists are available to help you create your dream
+                space.
+              </p>
+            </div>
+          </div>
+          <!-- flex 2 ENDS HERE -->
+
+          <!-- flex 3 start here -->
+          <div class="h-full flex-[1.4]">
+            <div class="h-full">
+              <img
+                class="h-full w-full"
+                src="./src/images/image-about-light.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- flex 3 END here -->
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>

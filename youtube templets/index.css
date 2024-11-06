@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    background-color: green;
+    padding: 10px;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+
+}
+
+.main .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .navbar ul {
+    display: flex;
+}
+
+#icon-bar {
+    color: aqua;
+    position: absolute;
+    border: 1px solid black;
+    width: 15%;
+    top: 60px;
+    left: -17%;
+    z-index: 1;
+    /* display: none; */
+    transition: all 1s;
+}
+
+#close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main .navbar ul li {
+    color: aliceblue;
+    list-style-type: none;
+    margin: 12px;
+}
+
+.main .navbar ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.logo{
+width: 100px;
+height: 50px;
+}
+.logo img{
+width: 100%;
+height: 100%;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .sidebar {
+    flex: 1;
+}
+
+.footer .sidebar ul {
+    border-bottom: 1px solid black;
+}
+
+.footer .sidebar ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.footer .sidebar ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.footer .sidebar ul li a:hover {
+    background-color: gray;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.layout {
+    flex: 6;
+    background-color: navy;
+    display: flex;
+    margin: 0 10px;
+    flex-wrap: wrap;
+}
+
+.layout .profile-id {
+    width: 23%;
+    margin: 5px 10px;
+}
+
+.layout .profile-id .img {
+    flex: 1;
+}
+
+.layout .profile-id .img img {
+    width: 100%;
+}
+
+.layout .avatar {
+    display: flex;
+}
+
+.layout .avatar .avatar-img {
+    width: 50px;
+    height: 50px;
+}
+
+.layout .avatar .avatar-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.layout .detail {
+    color: azure;
+    padding: 7px;
+}
+
+.id {
+    display: flex;
+    padding: 7px;
+}
+.search-wrapper{
+    display: flex;
+}
+.search{
+    width: 400px;
+    padding: 5px 15px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border: 0;
+    display: block;
+}
+.search:focus{
+    outline: none;
+}
+
+
+.btn{
+    padding: 5px 15px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    display: block;
+    border: none;
+}
+
+.micro-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.micro-btn button{
+height: 30px;
+width: 30px;
+border-radius: 50%;
+border: none;
+cursor: pointer;
+}

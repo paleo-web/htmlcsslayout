@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    
+}
+
+.navbar{
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.tags{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tags ul{
+    display: flex;
+}
+
+.tags ul li{
+    list-style: none;
+    margin: 5px;
+   
+}
+
+.tags li input{
+padding: 8px;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+.tags li button{
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sidebar{
+    display: flex;
+    border: 2px solid rebeccapurple;
+}
+.main-containt{
+    border: 2px solid black;
+    flex: 6;
+    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 23%;
+}
+.fram{
+    margin: 10px;
+    flex: 1;
+}
+.fram .dis-wrap{
+    display: flex;
+    margin: 10px;
+}
+.main-image{
+    flex: 1;
+    /* width: 20%; */
+}
+.main-image img{
+    flex: 1;
+    width: 50%;
+    display: flex;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.avatar-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.heading{
+ padding: 12px;
+}
+.side-wrapper{
+    background-color:black;
+    flex: 1;
+    margin: 10px;
+    color: white;
+    border-bottom: 1px solid red;
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+.side-wrapper ul{
+    border-bottom: 2px solid red;
+}
+
+.side-wrapper ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+a:hover{
+background-color: blue;
+border-radius: 10px;
+}
